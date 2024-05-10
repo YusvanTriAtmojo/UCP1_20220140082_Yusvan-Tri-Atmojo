@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hallo!!!</title>
+  
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html" style="font-size: 24px;">🏠</a></li>
+        <li class="dropdown">
+          <a class="dropbtn" style="font-size: 24px;">Member Nmixx</a>
+          <div class="konten">
+            <a href="member.html">NMIXX</a>
+            <a href="sosmed.html">SOSMED</a>
+          </div>
+        </li>
+        <li class="dropdown">
+            <a class="dropbtn" style="font-size: 24px;">NMIXX</a>
+            <div class="konten">
+              <a href="song.html">SONG</a>
+              <a href="picture.html">PIC GROUP</a>
+            </div>
+          </li>
+        <li><a href="saya.html" style="font-size: 24px;">Tentang Saya</a></li>
+        <li class="dropdown">
+          <button onclick="myFunction()" class="dropbtn" style="font-size: 24px;"> 🔎 Cari !!!</button>
+          <div id="myDropdown" class="konten">
+              <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+              <a href="member.html">NMIXX</a>
+              <a href="song.html">SONG</a>
+              <a href="picture.html">PIC GROUP</a>
+              <a href="saya.html">Saya</a>
+              <a href="sosmed.html">SOSMED</a>
+          </div>
+      </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="home" style="text-align: center; color: white;" >
+    <h1>YUSVAN TRI ATMOJO</h1>
+    <center>
+        <table style="margin-left: auto; margin-right: auto;" border="padding" cellpadding="10">
+            <tr style="background-color: green">
+                <td><p id="jdl">Foto</p></td>
+                <td><p id="jdl">Profil</p></td>
+            </tr>
+            <tr>
+                <td><img src="https://assets-a1.kompasiana.com/items/album/2021/03/24/blank-profile-picture-973460-1280-605aadc08ede4874e1153a12.png" alt="Yusvan" width="100px" height="100px" style="border-radius: 50%"></td>
+                <td>
+                    <p id="member">Nama : </p><p id="mnama">Yusvan Tri Atmojo</p><br>
+                    <p id="member">Hobi : </p><p id="mposisi">Membaca Komik</p><br>
+                    <p id="member">Lahir : </p><p id="mtgl">12 Oktober 2003</p><br>
+                    <p id="member">Tinggi : </p><p id="msub">176 cm</p><br>
+                </td>
+            </tr>
+        </table>
+    </center>
+    
+    <br>
+    <br>
+    <div class="botton">
+        <button onclick="showAlert1()">
+            KLIK 😎😎😎
+        </button>
+    </div>
+  </div>
+  <footer>
+    <p>Yusvan Tri Atmojo-WEBMIXX</p>
+    <p>Hak Cipta &copy; 2024</p>
+  </footer>
+<script src="salam.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
